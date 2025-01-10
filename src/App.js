@@ -4,6 +4,10 @@ import Body from "./components/Body";
 import Head from "./components/Head";
 import store from "./components/utils/store";
 
+
+const appRouter = createBrowser({
+  
+})
 function App() {
   return (
     <Provider store={store}>
